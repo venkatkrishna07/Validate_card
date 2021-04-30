@@ -11,7 +11,7 @@ GIN
 
 After installing Go (version 1.13+ is required), then you can use the below Go command to install Gin.
 
-`$ go get -u github.com/gin-gonic/gin`
+`$ go get  github.com/gin-gonic/gin`
 
 Import it in your code:
 
