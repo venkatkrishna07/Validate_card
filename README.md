@@ -19,9 +19,11 @@ Import it in your code:
 
 (Optional) Import net/http. This is required for example if using constants such as http.StatusOK.
 
+`import "net/http"`
+
 **Check dbconfig file for database info**
 
-`import "net/http"`
+
 
 ```
 $ go run validate.go
