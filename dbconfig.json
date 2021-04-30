@@ -1,0 +1,18 @@
+[
+	{
+		"Field" : "username",
+		"Type" : "varchar(15)",
+		"Null" : "YES",
+		"Key" : "",
+		"Default" : null,
+		"Extra" : ""
+	},
+	{
+		"Field" : "pass",
+		"Type" : "varchar(20)",
+		"Null" : "YES",
+		"Key" : "",
+		"Default" : null,
+		"Extra" : ""
+	}
+]
