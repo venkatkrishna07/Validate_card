@@ -19,6 +19,8 @@ Import it in your code:
 
 (Optional) Import net/http. This is required for example if using constants such as http.StatusOK.
 
+**Check dbconfig file for database info**
+
 `import "net/http"`
 
 ```
