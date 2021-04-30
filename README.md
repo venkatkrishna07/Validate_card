@@ -24,4 +24,4 @@ Import it in your code:
 ```
 $ go run validate.go
 ```
-Do a get call to "_url_"/validate/"_card digits_" (If running on local host use localhost:<port number> for URL)
+Do a get call to "_url_"/validate/"_card digits_" (If running on local host use localhost:"_port number_" for URL)
