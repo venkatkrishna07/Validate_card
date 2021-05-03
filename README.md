@@ -30,4 +30,4 @@ $ go run validate.go
 ```
 Do a get call to "_url_"/validate/"_card digits_" (If running on local host use localhost:"_port number_" for URL)
 
-**This is a Basic Auth API call, for API key generation please check this repository https://github.com/venkatkrishna07/BasicAuth-using-Gin-Gonic for generating API keys.**
+**This is a Basic Auth API call, for API key generation please check the repository : https://github.com/venkatkrishna07/BasicAuth-using-Gin-Gonic for generating API keys.**
