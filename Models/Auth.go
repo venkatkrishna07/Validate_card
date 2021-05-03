@@ -1,6 +1,10 @@
 package Models
 
 type User struct {
-	User string `json:"username"`
-	Pass string `json:"pass"`
+	Api_key    string `json:"api_key"`
+	Hash_value string `json:"hash_value"`
+}
+
+type Email struct {
+	Email string `json:"email"`
 }
