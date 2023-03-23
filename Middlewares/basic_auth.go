@@ -38,7 +38,7 @@ func BasicAuth() gin.HandlerFunc {
 
 func authenticateUser(key, password string) bool {
 	var authenticated bool
-	server_secret := "Venkatakrishna"
+	server_secret := "<server_secret>" // dummy value 
 	db1, err := sql.Open("mysql", "root:root123@tcp(127.0.0.1:3306)/Auth") //DB connection
 	if err != nil {
 		panic(err)
@@ -67,14 +67,7 @@ func authenticateUser(key, password string) bool {
 		}
 	}
 	db1.Close()
-	if authenticated {
-
-		return true
-
-	} else {
-
-		return false
-	}
+	return authenticated
 
 }
 
